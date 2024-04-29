@@ -1,0 +1,19 @@
+services:
+  dev-portal:
+    image: dev-portal
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "80:3000"
+    volumes:
+      - "./.env:/.env"
+      - "./certs:/certs"
+      # - "./static-api:/static-api"
+      # - "./static:/static"
+    # logging:
+    #   driver: syslog
+    #   options:
+    #     syslog-address: ${SYSLOG_ADDRESS}
+    #     syslog-format: "rfc5424micro"
+    #     tag: "{{.ImageName}}/${ENV}/{{.ID}}"
+

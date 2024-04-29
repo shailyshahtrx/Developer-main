@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: TRX Developer Portal
+theme:
+  name: material
+  font:
+    text: Open Sans
+  palette:
+    scheme: trx-dev-portal
+  logo: assets/logo.jpg
+  features:
+    - content.code.copy
+    - navigation.path
+    - navigation.instant
+    - navigation.footer
+markdown_extensions:
+  - pymdownx.snippets:
+      url_download: true
+      check_paths: true
+      base_path: ['./docs']
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - tables
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/output.css

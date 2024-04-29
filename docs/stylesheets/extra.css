@@ -1,0 +1,65 @@
+[data-md-color-scheme="trx-dev-portal"] {
+    --md-primary-fg-color: #004c54;
+    --md-primary-fg-color--light: #00b3bf;
+    --md-primary-fg-color--dark: #00353d;
+    --md-accent-fg-color: #87ea55;
+    --md-accent-fg-color--light: #defacd;
+    --md-accent-fg-color--dark:  #3b9d13;
+}
+
+body {
+    color: #2E2A47;
+    background-color: #ffffff;
+}
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: bolder;
+}
+h4 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+h6 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.admonition .note {
+}
+
+.md-main__inner {
+    max-width: unset;
+}
+
+p {
+    font-size: 16px;
+}
+
+code {
+    max-height: 500px;
+    overflow: scroll;
+}

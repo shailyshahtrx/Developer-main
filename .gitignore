@@ -1,0 +1,12 @@
+.idea
+build
+/server/cmd/main
+/static-docs/
+/app.env
+/static/
+/server/certs/
+/certs/
+/static-api/
+/portal-api-sync/node_modules/
+/portal-api-sync/xsd2jsonschema/node_modules/
+/dev-portal.tar

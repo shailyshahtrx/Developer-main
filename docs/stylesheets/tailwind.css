@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.md-button.md-button--primary {
+    @apply self-stretch text-white text-base font-normal  px-[18px] py-3 bg-sherpa-blue-900 rounded-lg shadow justify-center items-center gap-2.5 inline-flex;
+}

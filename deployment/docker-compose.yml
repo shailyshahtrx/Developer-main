@@ -1,0 +1,18 @@
+# configuration for dev, uat, prod, etc.
+# Assumes a docker image is already present on the machine.
+services:
+  dev-portal:
+    image: dev-portal
+    restart: always
+    ports:
+      - "443:3000"
+    volumes:
+      - "./.env:/.env"
+      - "./certs:/certs"
+    logging:
+      driver: syslog
+      options:
+        syslog-address: ${SYSLOG_ADDRESS}
+        syslog-format: "rfc5424micro"
+        tag: "{{.ImageName}}/${ENV}/{{.ID}}"
+

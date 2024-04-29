@@ -1,0 +1,6 @@
+RequestSchema,ResponseSchema
+ElementDefs,
+PurchaseData,
+CreditSale,CreditSaleResponse,
+CreditAuth,CreditAuthResponse,
+StorageSafeInsert,StorageSafeInsertResponse
